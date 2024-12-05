@@ -1,0 +1,8 @@
+.log-heading {
+    text-align: center;
+    justify-items: center !important;
+}
+.log-button{
+    justify-content: center ;
+    /* justify-items: center; */
+}

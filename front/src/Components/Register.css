@@ -1,0 +1,63 @@
+/* Container styling */
+.registration-container {
+  background-color: #f8f9fa;
+  padding: 30px 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.registration-container h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form Controls */
+.registration-container .form-control {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.registration-container .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+/* Submit Button */
+.registration-container .btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.registration-container .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Feedback messages */
+.registration-container .valid-feedback,
+.registration-container .invalid-feedback {
+  font-size: 14px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .registration-container {
+    padding: 20px 10px;
+  }
+
+  .registration-container h3 {
+    font-size: 24px;
+  }
+
+  .registration-container .btn {
+    font-size: 16px;
+  }
+}
